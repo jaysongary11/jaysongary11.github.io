@@ -75,7 +75,6 @@ img {
 }
 .about {
     background-color: darkgrey;
-    
     width: 78%;
     float: left;
     margin-left: 180px;
@@ -83,5 +82,12 @@ img {
 .aboutpara {
     font: normal 30px arial;
     padding: 5%;
-    
+}
+.emphist {
+    font: normal 30px arial;
+    padding: 5%;
+}
+.projectsList {
+    font: normal 30px arial;
+    padding: 5%;
 }
