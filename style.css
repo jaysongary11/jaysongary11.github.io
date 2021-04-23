@@ -20,8 +20,7 @@ nav {
        
 }
 .navigation {
-    text-decoration: none;
-    list-style-type: none;
+   
     background-color: white;
     text-align: center;
     padding: 8px;
@@ -31,6 +30,10 @@ nav {
     border-radius:30%;
     
     
+}
+a{
+    text-decoration:none;
+    color: black;
 }
 img {
     display: block;
@@ -43,4 +46,17 @@ img {
     background-color: darkgrey;
     height: 500px;
     float: left;
+    margin-right: 20px;
+    
+}
+.intro {
+    width: 60%;
+    background-color: darkgrey;
+    height: 500px;
+    float: left;
+    
+}
+.intropara{
+    font: normal 30px arial;
+    padding: 5%;
 }
