@@ -10,13 +10,13 @@ nav {
     text-decoration: none;
     list-style-type: none;
     background-color: darkgrey;
-    text-align: center;
+    
     margin-right: 20px;
-    padding: 15px;
-    float: left;
+    
+    position:absolute;
     height: 500px;
-    
-    
+    width: 10%;
+    height: 100%;
        
 }
 .navigation {
@@ -30,6 +30,7 @@ nav {
     border-radius:30%;
     
     
+    
 }
 a{
     text-decoration:none;
@@ -40,6 +41,7 @@ img {
     width: 90%;
     height: 90%;
     padding: 5%;
+    
 }
 .picture {
     width: 25%;
@@ -47,16 +49,39 @@ img {
     height: 500px;
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
     
+    
+}
+.pictures {
+    width: 25%;
+    background-color: darkgrey;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .intro {
     width: 60%;
     background-color: darkgrey;
     height: 500px;
-    float: left;
+    float: right;
     
 }
 .intropara{
     font: normal 30px arial;
     padding: 5%;
+}
+.about {
+    background-color: darkgrey;
+    
+    width: 78%;
+    float: left;
+    margin-left: 180px;
+}
+.aboutpara {
+    font: normal 30px arial;
+    padding: 5%;
+    
 }
