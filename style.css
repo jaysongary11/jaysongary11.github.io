@@ -11,9 +11,11 @@ nav {
     list-style-type: none;
     background-color: darkgrey;
     text-align: center;
-    margin: 20px; 
+    margin-right: 20px;
     padding: 15px;
     float: left;
+    height: 500px;
+    
     
        
 }
@@ -29,4 +31,16 @@ nav {
     border-radius:30%;
     
     
+}
+img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+.picture {
+    width: 25%;
+    background-color: darkgrey;
+    height: 500px;
+    float: left;
 }
